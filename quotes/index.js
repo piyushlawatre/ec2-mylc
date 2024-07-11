@@ -9,6 +9,6 @@ app.get("/quotes", async (req, res, next) => {
   res.json(data);
 });
 
-app.listen(3002, "127.0.0.1", (req, res, next) => {
+app.listen(3002, (req, res, next) => {
   console.log("Server Quote Started");
 });

@@ -9,6 +9,6 @@ app.get("/todo", async (req, res, next) => {
   res.json(todo.data);
 });
 
-app.listen(3000, "127.0.0.1", () => {
+app.listen(3000, () => {
   console.log("Server Started");
 });
